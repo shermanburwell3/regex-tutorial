@@ -81,6 +81,12 @@ This quantifier means "0 or more times." It is used in:
 
 ### OR Operator
 
+We can add some flexibility to our regex with an OR operator, or the `|`.
+
+`/^(http|https):\/\/(www\.)?([a-z0-9-]+\.)+[a-z]{2,}(\/[^\s]*)?$/`
+
+The `|` or the OR operator allows the url in our example to start with `https` or `http`.
+
 ### Character Classes
 
 ### Flags
