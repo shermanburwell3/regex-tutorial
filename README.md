@@ -22,7 +22,6 @@ The following is an example of a regex that verifies that the user's input is a 
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -185,8 +184,8 @@ In the example `/^(https?:\/\/)?(www\.)?([a-z0-9-]+\.)+[a-z]{2,}(\/[^\s]*)?$/`, 
 
 As mentioned before, we do use capture groups indicated by the parentheses, but none of those groups are referenced later in the pattern. Backreferences would look like `\1`, `\2`, etc., referring to the first and second capturing groups, respectively.
 
-### Look-ahead and Look-behind
-
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+A pilot and aspiring software and game developer.
+
+https://github.com/shermanburwell3
