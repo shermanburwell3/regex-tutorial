@@ -154,6 +154,10 @@ If you were to use this regex in JavaScript, you could access the captured group
 
 ### Bracket Expressions
 
+This bracket expression is used to define a set of characters that can appear in the domain name part of the URL.
+
+`[a-z0-9-]`: This matches any single character that is a lowercase letter (a-z), a digit (0-9), or a hyphen (-).
+
 ### Greedy and Lazy Match
 
 ### Boundaries
