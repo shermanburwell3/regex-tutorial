@@ -171,9 +171,13 @@ Greedy Matching: By default, quantifiers in regex (like `*`, `+`, and `?`) are g
 
 Lazy Matching: Adding a `?` after a quantifier makes it lazy, meaning it will match as little text as possible. For example, .`*?` will match the smallest amount of text that satisfies the pattern.
 
-
-
 ### Boundaries
+
+As we have covered in our basic section of regex components, the boundaries in our regex declare that the match must begin at the start of our string `^` and it ends at the end of our string `$`
+
+`^`: This asserts that the match must start at the beginning of the string. It ensures that there are no characters before the pattern.
+
+`$`: This asserts that the match must end at the end of the string. It ensures that there are no characters after the pattern.
 
 ### Back-references
 
