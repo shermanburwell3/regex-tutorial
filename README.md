@@ -52,12 +52,12 @@ Anchors are used to specify where in the string a pattern must occur to be valid
 Caret (`^`):
 
 Asserts that the match must occur at the beginning of the string.
-Example: ^abc matches "abc" only if it appears at the start of the string.
+Example: `^abc` matches "abc" only if it appears at the start of the string.
 
 Dollar Sign (`$`):
 
 Asserts that the match must occur at the end of the string.
-Example: xyz$ matches "xyz" only if it appears at the end of the string.
+Example: `xyz$` matches "xyz" only if it appears at the end of the string.
 
 ### Quantifiers
 
@@ -65,8 +65,8 @@ Quantifiers are used to ensure a certain number of characters or expressions are
 
 `?`:
 This quantifier means "0 or 1 times." It is used in the following parts of the regex:
-(https?:\/\/)?: This means that the protocol (http:// or https://) is optional.
-(www\.)?: This means that the "www." part is also optional.
+`(https?:\/\/)?`: This means that the protocol (http:// or https://) is optional.
+`(www\.)?`: This means that the "www." part is also optional.
 
 `+`:
 This quantifier means "1 or more times." It is used in:
