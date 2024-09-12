@@ -181,6 +181,10 @@ As we have covered in our basic section of regex components, the boundaries in o
 
 ### Back-references
 
+In the example `/^(https?:\/\/)?(www\.)?([a-z0-9-]+\.)+[a-z]{2,}(\/[^\s]*)?$/`, we do not use any Back References
+
+As mentioned before, we do use capture groups indicated by the parentheses, but none of those groups are referenced later in the pattern. Backreferences would look like `\1`, `\2`, etc., referring to the first and second capturing groups, respectively.
+
 ### Look-ahead and Look-behind
 
 ## Author
