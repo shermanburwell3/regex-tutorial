@@ -160,6 +160,19 @@ This bracket expression is used to define a set of characters that can appear in
 
 ### Greedy and Lazy Match
 
+Greedy matching means that the regex engine will try to match as much text as possible, while lazy matching (or non-greedy matching) means that it will match as little text as possible.
+
+In our example:
+`/^(https?:\/\/)?(www\.)?([a-z0-9-]+\.)+[a-z]{2,}(\/[^\s]*)?$/`
+
+There are no greedy or lazy matching parameters, but we could find some use for lazy matching in a url regex.
+
+Greedy Matching: By default, quantifiers in regex (like `*`, `+`, and `?`) are greedy, meaning they will match as much text as possible. For example, .`*` will match everything until the last possible character that satisfies the pattern.
+
+Lazy Matching: Adding a `?` after a quantifier makes it lazy, meaning it will match as little text as possible. For example, .`*?` will match the smallest amount of text that satisfies the pattern.
+
+
+
 ### Boundaries
 
 ### Back-references
